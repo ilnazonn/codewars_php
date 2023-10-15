@@ -25,7 +25,4 @@ function findDifference($a, $b)
     }
 }
 
-
-
-
 ?>
