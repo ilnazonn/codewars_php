@@ -7,11 +7,13 @@
 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)  */
 
 function summation($n) {
-    if ($n == 1) {
-            return 1;
-        } else {
-            return $n + summation($n - 1);
-        }
-      }
+    $sum = 0;
+    for($i = 1; $i <= $n; $i++){
+      $sum += $i;
+    }
+      return $sum;
+  }
+    
+  ?>
       
 ?>
